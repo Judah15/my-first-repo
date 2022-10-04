@@ -1,0 +1,40 @@
+/* css declaration */
+
+/* selaector{
+    property:value;
+property:value;}
+*/
+
+*{
+    margin: 0;
+}
+/* selection by tag */
+div{
+    /* background:tomato; */
+    display:inline-block;
+    vertical-align: top;
+    padding: 20px;
+    
+}
+/* selection by id */
+#firstdiv{
+    width: 300px;
+    background-color: rgb(231, 219, 44);
+}
+/* selection by class */
+.seconddiv{
+    background-color: grey;
+    width: 300px;
+}
+/* selection by id */
+.thirddiv{
+    background-color: rgb(144, 192, 72);
+    width: 300px;
+}
+section{
+    /* background:black; */
+    /* height: 250px; */
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
